@@ -29,7 +29,7 @@
 #define XLIBS_INTERNAL
 #endif
 
-#include "strings.h"
+#include "xstrings.h"
 
 /**
  * Calculate the length of the given string.

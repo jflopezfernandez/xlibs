@@ -1,1 +1,1 @@
-pkginclude_HEADERS = strings.h
+pkginclude_HEADERS = xstrings.h

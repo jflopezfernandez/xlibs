@@ -30,7 +30,7 @@
 #define XLIBS_INTERNAL
 #endif
 
-#include "strings.h"
+#include "xstrings.h"
 
 /**
  * Naive String Search Algorithm

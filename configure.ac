@@ -8,7 +8,18 @@ LT_INIT
 AC_CONFIG_MACRO_DIRS([m4])
 
 # Configuration options.
-AC_ARG_ENABLE([crc32],
+AC_ARG_ENABLE([math],
+    [AS_HELP_STRING([--disable-math],
+        [disable math library (enabled by default)])],
+    [math_library_enabled="$enableval"],
+    [math_library_enabled=yes])
+
+if test "x$math_library_enabled" = xyes
+then
+    AC_CONFIG_SUBDIRS([math])
+fi
+
+AC_ARG_ENABLE([strings],
     [AS_HELP_STRING([--disable-strings],
         [disable strings library (enabled by default)])],
     [strings_library_enabled="$enableval"],
