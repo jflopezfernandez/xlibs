@@ -150,4 +150,6 @@ int
 __attribute__((pure))
 modular_exponentiation(int a, int b, int n);
 
+int least_common_multiple(void);
+
 #endif /** PROJECT_INCLUDES_XMATH_H */

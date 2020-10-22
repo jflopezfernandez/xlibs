@@ -9,6 +9,7 @@ AC_CONFIG_MACRO_DIRS([m4])
 #AC_CONFIG_SRCDIR([src/ .c])
 
 # Check for programs.
+AM_PROG_AS
 AC_PROG_CC
 AC_PROG_INSTALL
 
